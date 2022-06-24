@@ -4,7 +4,7 @@ const config = require('./config.json');
 const cookies = require('./cookies.json');
 const cron = require('node-cron');
 
-const runner = cron.schedule('0 */2 * * *', () => {
+const runner = cron.schedule('0 */6 * * *', () => {
    console.clear();
    console.log("   _____                      _           _                       _         __      __   _            \n" +
        "  / ____|                    | |         | |           /\\        | |        \\ \\    / /  | |           \n" +
